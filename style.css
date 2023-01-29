@@ -1,0 +1,110 @@
+
+/* STANDARD APPEARANCE */ 
+body{
+    background-image: linear-gradient(4deg, #457B9Dcc, #324766cc), url("https://rare-gallery.com/uploads/posts/568550-business-learning.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #F1FAEE;
+    margin: 0;
+    font-family: Tahoma;
+    font-size: 20px;
+  }
+  
+  .survey-form {
+    max-width: 600px;
+    min-width: 450px;
+    width: 65vw;
+    padding: 2%;
+    margin: 0 auto;
+    border-radius: 10px;
+    background-color: #1D3557df;
+  }
+  
+  /* TITLE */
+  .title-preview{
+    text-align: center;
+  }
+  
+  /* USER INPUT */ 
+  fieldset {
+    border: none;
+    padding: 2em 0;
+    border-bottom: 4px solid #457B9D;
+  }
+
+  fieldset:last-of-type {
+    border-bottom: none;
+  }
+  
+
+  label:first-of-type{
+    margin: 0;
+  }
+  
+  label{
+    margin-top: 0.5em;
+    margin-bottom: 0.25em;
+    display: block;
+  }
+  
+  select, input, textarea{
+    width: 100%;
+    height: 2.5em;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    color: #1D3557;
+    background-color: #F1FAEE;
+  }
+
+  input::placeholder {
+    color: #1D3557;
+  }
+
+  /* styles the autofill */
+  input:-webkit-autofill,
+  input:-webkit-autofill:hover, 
+  input:-webkit-autofill:focus {
+  -webkit-text-fill-color: #1D3557;
+  -webkit-box-shadow: 0 0 0px 40rem #ffff inset;
+}
+  
+  /* styles the checkboxes and radio buttons */
+  .inline{
+    width: 20px;
+    margin: 0 10px 0 0;
+    vertical-align: middle;
+  }
+  
+  /* Submit */ 
+  input[type="submit"] {
+    display: block;
+    height: 1.8em;
+    width: 60%;
+    margin: 1em auto;
+    font-size: 1.1rem;
+    background-color: #457B9D;
+    color: white;
+    min-width: 300px;
+    transition: 0.5s;
+  }
+  
+  input[type="submit"]:hover{
+    background-color: #43F78C;
+  }
+
+ /* PHONE DISPLAY */
+  @media (max-width: 500px) {
+    .survey-form {
+      display: block;
+      margin: 0;
+      border-radius: 0;
+      width: 95.7%;
+    }
+  }
+  
+  
+  
+  
