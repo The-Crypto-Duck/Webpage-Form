@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <div id="results">
+        <a href="/">Back to form</a>
+        
+        <br>
+        <!-- Displays Data-->
+        <script>
+            const resultlist = document.getElementById('results')
+            new URLSearchParams(window.location.search).forEach((value, name) =>{
+                resultlist.append(name + ": " + value);
+                resultlist.append(document.createElement('br'))
+            })
+        </script>
+    </div>
+</body>
+</html>
